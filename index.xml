@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HOME on Aharon Sebton</title>
+    <title>Home on Aharon Sebton</title>
     <link>https://sebtona.github.io/</link>
-    <description>Recent content in HOME on Aharon Sebton</description>
+    <description>Recent content in Home on Aharon Sebton</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Aharon Sebton</copyright>
+    <copyright>© Aharon Sebton 2022</copyright>
     <lastBuildDate>Fri, 03 May 2019 09:37:55 +0200</lastBuildDate><atom:link href="https://sebtona.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting started</title>
