@@ -3,77 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sebtona.github.io/post/</loc>
-    <lastmod>2019-05-03T09:37:55+02:00</lastmod>
+    <lastmod>2022-05-14T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/post/getting-started/</loc>
-    <lastmod>2019-05-03T09:37:55+02:00</lastmod>
+    <loc>https://sebtona.github.io/post/coming-soon/</loc>
+    <lastmod>2022-05-14T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sebtona.github.io/</loc>
-    <lastmod>2019-05-03T09:37:55+02:00</lastmod>
+    <lastmod>2022-05-14T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/post/portfolio-definition/</loc>
-    <lastmod>2019-05-02T19:49:05+02:00</lastmod>
+    <loc>https://sebtona.github.io/designs/arduino/</loc>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/techs/d3/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
+    <loc>https://sebtona.github.io/techs/c&#43;&#43;/</loc>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/portfolio/dancing-hexapod/</loc>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sebtona.github.io/designs/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/techs/javascript/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/designs/photoshop/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sebtona.github.io/portfolio/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/portfolio/sample-project/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://sebtona.github.io/techs/</loc>
-    <lastmod>2019-05-02T19:47:09+02:00</lastmod>
+    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/post/archetypes/</loc>
-    <lastmod>2019-05-02T19:25:30+02:00</lastmod>
+    <loc>https://sebtona.github.io/designs/altium-designer/</loc>
+    <lastmod>2021-05-26T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/post/shortcodes/</loc>
-    <lastmod>2019-04-29T16:18:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/post/config-file/</loc>
-    <lastmod>2019-04-20T16:18:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/post/define-specific-og-image/</loc>
-    <lastmod>2019-04-20T11:14:59+02:00</lastmod>
+    <loc>https://sebtona.github.io/portfolio/pediatric-test-mannequin/</loc>
+    <lastmod>2021-05-26T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

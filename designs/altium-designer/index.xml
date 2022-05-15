@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Aharon Sebton</title>
-    <link>https://sebtona.github.io/</link>
-    <description>Recent content in Home on Aharon Sebton</description>
+    <title>Altium Designer on Aharon Sebton</title>
+    <link>https://sebtona.github.io/designs/altium-designer/</link>
+    <description>Recent content in Altium Designer on Aharon Sebton</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2022</copyright>
-    <lastBuildDate>Sat, 14 May 2022 18:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coming soon</title>
-      <link>https://sebtona.github.io/post/coming-soon/</link>
-      <pubDate>Sat, 14 May 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://sebtona.github.io/post/coming-soon/</guid>
-      <description>&lt;p&gt;New blog posts coming soon&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Dancing Hexapod</title>
-      <link>https://sebtona.github.io/portfolio/dancing-hexapod/</link>
-      <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://sebtona.github.io/portfolio/dancing-hexapod/</guid>
-      <description>More information about this project is available on GitHub.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 26 May 2021 18:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/altium-designer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pediatric Test Mannequin</title>
       <link>https://sebtona.github.io/portfolio/pediatric-test-mannequin/</link>

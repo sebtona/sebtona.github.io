@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2022</copyright>
-    <lastBuildDate>Thu, 02 May 2019 19:47:09 +0200</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Oct 2021 18:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Photoshop</title>
-      <link>https://sebtona.github.io/designs/photoshop/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
+      <title>Arduino</title>
+      <link>https://sebtona.github.io/designs/arduino/</link>
+      <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
       
-      <guid>https://sebtona.github.io/designs/photoshop/</guid>
+      <guid>https://sebtona.github.io/designs/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Altium Designer</title>
+      <link>https://sebtona.github.io/designs/altium-designer/</link>
+      <pubDate>Wed, 26 May 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/designs/altium-designer/</guid>
       <description></description>
     </item>
     
