@@ -29,7 +29,7 @@
   <meta property="og:title" content="Dancing Hexapod" />
 <meta property="og:description" content="Hexapod robot controlled by BPM detection algorithm" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sebtona.github.io/portfolio/dancing-hexapod/" /><meta property="og:image" content="https://sebtona.github.io/portfolio/dancing-hexapod/hexapod.jpg" /><meta property="article:section" content="portfolio" />
+<meta property="og:url" content="https://sebtona.github.io/portfolio/dancing-hexapod/" /><meta property="og:image" content="https://sebtona.github.io/portfolio/dancing-hexapod/hexapod_front.jpg" /><meta property="article:section" content="portfolio" />
 <meta property="article:published_time" content="2021-10-27T18:00:00-05:00" />
 <meta property="article:modified_time" content="2021-10-27T18:00:00-05:00" />
 
@@ -37,7 +37,7 @@
   <meta itemprop="name" content="Dancing Hexapod">
 <meta itemprop="description" content="Hexapod robot controlled by BPM detection algorithm"><meta itemprop="datePublished" content="2021-10-27T18:00:00-05:00" />
 <meta itemprop="dateModified" content="2021-10-27T18:00:00-05:00" />
-<meta itemprop="wordCount" content="9"><meta itemprop="image" content="https://sebtona.github.io/portfolio/dancing-hexapod/hexapod.jpg">
+<meta itemprop="wordCount" content="493"><meta itemprop="image" content="https://sebtona.github.io/portfolio/dancing-hexapod/hexapod_front.jpg">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -309,8 +309,40 @@
 </div>
 </div>
 
-<img title="Dancing Hexapod" alt="Dancing Hexapod" src="/portfolio/dancing-hexapod/hexapod.jpg" />
+<img title="Dancing Hexapod" alt="Dancing Hexapod" src="/portfolio/dancing-hexapod/hexapod_front.jpg" />
 
+<p>The inspiration for my final project in my Principles of Robotics class stemmed from Boston Dynamics&rsquo; <a href="https://youtu.be/fn3KWM1kuAw" target="_blank">video</a> of their dancing robots. I proposed the creation of a hexapod (six-legged) mobile robot that could accurately detect the tempo of a song or audio file being played, and perform a set of dance moves that are synchronized to the beat. As a stretch goal, I wanted the hexapod to move toward the audio source before dancing, just as a human would at a concert. The following initial flowchart depicts the desired behavior of the robot:
+<figure><img src="/portfolio/dancing-hexapod/flowchart.png"
+         alt="Program Flowchart"/><figcaption>
+            <p>Program Flowchart</p>
+        </figcaption>
+</figure>
+
+The hexapod used in this project is powered by a 7.2V rechargeable battery pack and controlled by the Ardino UNO and Lynxmotion SSC-32U control boards shown below. A single serial connection between the Arduino and the SSC-32 allows the Arduino to offload the burden of simultaneously controlling the motors to the SSC-32 while it analyzes the audio samples it takes in.</p>
+<p><figure><img src="/portfolio/dancing-hexapod/control_boards.jpg"
+         alt="Control Boards"/><figcaption>
+            <p>Control Boards</p>
+        </figcaption>
+</figure>
+
+Each leg has two servo motors to control its &ldquo;shoulder&rdquo; (stride) and &ldquo;elbow&rdquo; (lift) joints, for a total of 12 motors. The SSC-32 can also provide power to the ultrasonic sensor mounted on the front of the robot. For this project, however, the extra SSC-32 power ports were used for two electret microphones.</p>
+<p><figure><img src="/portfolio/dancing-hexapod/hexapod_top.jpg"
+         alt="Hexapod Overhead View"/><figcaption>
+            <p>Hexapod Overhead View</p>
+        </figcaption>
+</figure>
+
+I created a C++ script with distinct functions for the Arduino to establish serial communication with the SSC-32, acquire an audio signal and estimate its tempo, and execute modular &ldquo;dance moves&rdquo; in a customizable routine. Arduino libraries were used to assist in SSC-32 communication, performing a fast Fourier transform (FFT), and working with vectors.</p>
+<p>The audio processing algorithm aimed to estimate the tempo of the audio in real time, but memory limitations on the Arduino UNO did not allow for this. Instead, I implemented the following algorithm:</p>
+<ol>
+<li>Capture and store audio samples from a microphone periodically</li>
+<li>Apply a Hamming window to the audio signal to improve clarity in the frequency domain</li>
+<li>Apply the Fast Fourier Transform to the windowed audio signal. The result is the frequency spectrum of the sample.</li>
+<li>Determine the highest peak of the frequency spectrum. This is the most prevalent frequency in the signal.</li>
+<li>Transform the peak frequency (f) to a reasonable one, if needed.*</li>
+<li>Set the delay between robot frame transformations accordingly. (Delay T = 1/f)</li>
+</ol>
+<p>* Sometimes, the most prevalent frequency detected is actually a harmonic of the true tempo of the audio signal. To achieve an accurate estimate of the true tempo, it may be necessary to multiply or divide the detected peak frequency by an even integer. To simplify the determination of whether this is necessary, I only tested the algorithm on audio signals with tempos in the 1-3 Hz (60-180 BPM) range; most musical pieces fall within this range. Any detected peak frequency outside of this range was multiplied or divided by 2 until a value within the proper range was reached.</p>
 <p>More information about this project is available on <a href="https://github.com/sebtona/dancing-hexapod" target="_blank">GitHub</a>.</p>
 
 

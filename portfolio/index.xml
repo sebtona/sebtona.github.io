@@ -14,7 +14,7 @@
       <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
       
       <guid>https://sebtona.github.io/portfolio/dancing-hexapod/</guid>
-      <description>More information about this project is available on GitHub.</description>
+      <description>The inspiration for my final project in my Principles of Robotics class stemmed from Boston Dynamics&amp;rsquo; video of their dancing robots. I proposed the creation of a hexapod (six-legged) mobile robot that could accurately detect the tempo of a song or audio file being played, and perform a set of dance moves that are synchronized to the beat. As a stretch goal, I wanted the hexapod to move toward the audio source before dancing, just as a human would at a concert.</description>
     </item>
     
     <item>
