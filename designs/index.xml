@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2022</copyright>
-    <lastBuildDate>Wed, 27 Oct 2021 18:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 12:30:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MATLAB</title>
+      <link>https://sebtona.github.io/designs/matlab/</link>
+      <pubDate>Thu, 04 Nov 2021 12:30:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/designs/matlab/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Arduino</title>
       <link>https://sebtona.github.io/designs/arduino/</link>

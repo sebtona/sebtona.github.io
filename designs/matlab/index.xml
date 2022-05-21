@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MATLAB on Aharon Sebton</title>
+    <link>https://sebtona.github.io/designs/matlab/</link>
+    <description>Recent content in MATLAB on Aharon Sebton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Aharon Sebton 2022</copyright>
+    <lastBuildDate>Thu, 04 Nov 2021 12:30:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Image Reconstruction</title>
+      <link>https://sebtona.github.io/portfolio/mathematical-image-reconstruction/</link>
+      <pubDate>Thu, 04 Nov 2021 12:30:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/portfolio/mathematical-image-reconstruction/</guid>
+      <description>This MATLAB project completed in my Advanved Engineering Mathematics course demonstrates how eigenvectors and eigenvalues can be used for image re-synthesis and compression. I learned the following important takeaways by completing this project:
+ Any image can be represented as a set of eigenpairs (eigenvalues and corresponding eigenvectors).  Original Cameraman Image and Plot of Eigenvalues
+   Some image eigenvalues have greater magnitudes than others.  Magnitude of Eigenvalues of Image</description>
+    </item>
+    
+    <item>
+      <title>Mathematical Edge Detection</title>
+      <link>https://sebtona.github.io/portfolio/mathematical-edge-detection/</link>
+      <pubDate>Thu, 14 Oct 2021 12:30:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/portfolio/mathematical-edge-detection/</guid>
+      <description>This MATLAB project completed in my Advanved Engineering Mathematics course demonstrates gradient and Laplacian edge detection techniques, and their caveats with grayscale images. I learned the following important takeaways by completing this project:
+ Taking the gradient of an image in any direction (by convolving the image with a kernel) will result in an intuitive visualization of how quickly pixel values change in said direction. This can be used as a crude edge detection method.</description>
+    </item>
+    
+  </channel>
+</rss>

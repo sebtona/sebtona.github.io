@@ -17,6 +17,36 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://sebtona.github.io/designs/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/portfolio/mathematical-image-reconstruction/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/techs/matlab/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/designs/matlab/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/portfolio/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://sebtona.github.io/techs/</loc>
+    <lastmod>2021-11-04T12:30:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://sebtona.github.io/designs/arduino/</loc>
     <lastmod>2021-10-27T18:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -32,18 +62,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sebtona.github.io/designs/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/portfolio/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://sebtona.github.io/techs/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
+    <loc>https://sebtona.github.io/portfolio/mathematical-edge-detection/</loc>
+    <lastmod>2021-10-14T12:30:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
