@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2022</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 12:30:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fusion 360</title>
+      <link>https://sebtona.github.io/designs/fusion-360/</link>
+      <pubDate>Wed, 27 Apr 2022 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/designs/fusion-360/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intera</title>
+      <link>https://sebtona.github.io/designs/intera/</link>
+      <pubDate>Wed, 27 Apr 2022 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/designs/intera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://sebtona.github.io/designs/ros/</link>
+      <pubDate>Wed, 27 Apr 2022 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/designs/ros/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>MATLAB</title>
       <link>https://sebtona.github.io/designs/matlab/</link>

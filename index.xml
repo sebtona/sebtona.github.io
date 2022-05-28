@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Sawyer Mobile Device Interaction</title>
+      <link>https://sebtona.github.io/portfolio/sawyer-mobile-device-interaction/</link>
+      <pubDate>Wed, 27 Apr 2022 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/portfolio/sawyer-mobile-device-interaction/</guid>
+      <description>For my final project in my Advanced Robotics class, I proposed a method of enabling the collaborative arm robot Sawyer (by Rethink Robotics) to perform single and multi-touch gestures on a mobile device. The purpose of this project is twofold. One is to allow for automated smartphone and mobile application testing through cobots. The other purpose is to eventually allow for cobot teleoperation through human biological signals, such as EMG or gaze, so that people with mobility-limiting disabilities may fully control touch screen devices without use of their arms.</description>
+    </item>
+    
+    <item>
       <title>Mathematical Image Reconstruction</title>
       <link>https://sebtona.github.io/portfolio/mathematical-image-reconstruction/</link>
       <pubDate>Thu, 04 Nov 2021 12:30:00 -0500</pubDate>
