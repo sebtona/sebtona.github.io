@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flightmare on Aharon Sebton</title>
+    <link>https://sebtona.github.io/designs/flightmare/</link>
+    <description>Recent content in Flightmare on Aharon Sebton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Aharon Sebton 2023</copyright>
+    <lastBuildDate>Mon, 08 May 2023 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/designs/flightmare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gesture Controlled Drone Simulation</title>
+      <link>https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/</link>
+      <pubDate>Mon, 08 May 2023 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/</guid>
+      <description>I worked in a team with two of my fellow students on a final project for our Biorobotics/Cybernetics class. The goals of the project were to create a machine learning model capable of accurately classifying a predetermined set of hand and arm gestures based on a user&amp;rsquo;s biosignals, and to use said model to control a quadcopter drone&amp;rsquo;s trajectory in a simulation environment.
+We began this project by agreeing on a set of fifteen hand/arm gestures that map to commands for the drone to move and rotate along all axes in 3D space.</description>
+    </item>
+    
+  </channel>
+</rss>
