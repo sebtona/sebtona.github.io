@@ -8,7 +8,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta name='description' content='Creating a neural network cabale of accurately classifying drone control gestures based on EMG and IMU data' />
+  <meta name='description' content='Creating a neural network capable of accurately classifying drone control gestures based on EMG and IMU data' />
   <meta name='theme-color' content='#FD3519' />
   
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
@@ -27,14 +27,14 @@
 <link rel="stylesheet" href="https://sebtona.github.io/syntax.min.css" integrity="" media="screen">
 
   <meta property="og:title" content="Gesture Controlled Drone Simulation" />
-<meta property="og:description" content="Creating a neural network cabale of accurately classifying drone control gestures based on EMG and IMU data" />
+<meta property="og:description" content="Creating a neural network capable of accurately classifying drone control gestures based on EMG and IMU data" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/" /><meta property="og:image" content="https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/images/thumbnail.png" /><meta property="article:section" content="portfolio" />
 <meta property="article:published_time" content="2023-05-08T17:00:00-05:00" />
 <meta property="article:modified_time" content="2023-05-08T17:00:00-05:00" />
 
   <meta itemprop="name" content="Gesture Controlled Drone Simulation">
-<meta itemprop="description" content="Creating a neural network cabale of accurately classifying drone control gestures based on EMG and IMU data"><meta itemprop="datePublished" content="2023-05-08T17:00:00-05:00" />
+<meta itemprop="description" content="Creating a neural network capable of accurately classifying drone control gestures based on EMG and IMU data"><meta itemprop="datePublished" content="2023-05-08T17:00:00-05:00" />
 <meta itemprop="dateModified" content="2023-05-08T17:00:00-05:00" />
 <meta itemprop="wordCount" content="517"><meta itemprop="image" content="https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/images/thumbnail.png">
 <meta itemprop="keywords" content="" />
@@ -47,7 +47,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile Home" class="rounded-logo">
+        <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile About Me" class="rounded-logo">
       </a>
     </div>
     <h2>Hi, I'm Aharon</h2>
@@ -133,7 +133,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile Home" class="rounded-logo">
+          <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile About Me" class="rounded-logo">
         </a>
       </div>
       <h2>Hi, I'm Aharon</h2>
@@ -365,7 +365,7 @@
 </figure>
 
 <p>After finalizing the machine learning portion of the project, it was time to apply it to a drone simulation environment. The open source flight simulator <a href="https://uzh-rpg.github.io/flightmare/" target="_blank">Flightmare</a> was chosen due to its ability to interface with the Robot Operating System (ROS), a system the team was already familiar with. A Python script was created that imports the structure of the trained fusion network, uses the <a href="https://github.com/uts-magic-lab/ros_myo" target="_blank">ros_myo package</a> to continuously import live gesture data into a buffer, classifies the incoming gesture data, and publishes its prediction to a ROS topic named /COMMAND. A C++ script was also created that opens a ROS-enabled drone simulation environment, subscribes to the /COMMAND ROS topic, and moves the drone in the direction associated with the fusion network&rsquo;s prediction.</p>
-<video class="video-shortcode" width="550" preload="auto" controls>
+<video class="video-shortcode" width="100%" preload="auto" controls>
     <source src="/portfolio/gesture-controlled-drone-simulation/images/vid.mp4" type="video/mp4">
     There should have been a video here but your browser does not seem
     to support it.
