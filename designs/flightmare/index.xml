@@ -14,7 +14,7 @@
       <pubDate>Mon, 08 May 2023 17:00:00 -0500</pubDate>
       
       <guid>https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/</guid>
-      <description>I worked in a team with two of my fellow students on a final project for our Biorobotics/Cybernetics class. The goals of the project were to create a machine learning model capable of accurately classifying a predetermined set of hand and arm gestures based on a user&amp;rsquo;s biosignals, and to use said model to control a quadcopter drone&amp;rsquo;s trajectory in a simulation environment.
+      <description>I worked in a team with two of my fellow students on a final project for our Biorobotics/Cybernetics class. The goals of the project were to create a machine learning model capable of accurately classifying a predetermined set of hand and arm gestures based on a user&amp;rsquo;s biosignals, and to use said model to control a quadcopter drone&amp;rsquo;s trajectory in a real time simulation environment.
 We began this project by agreeing on a set of fifteen hand/arm gestures that map to commands for the drone to move and rotate along all axes in 3D space.</description>
     </item>
     

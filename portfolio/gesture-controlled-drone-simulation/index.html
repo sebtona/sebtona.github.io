@@ -36,7 +36,7 @@
   <meta itemprop="name" content="Gesture Controlled Drone Simulation">
 <meta itemprop="description" content="Creating a neural network capable of accurately classifying drone control gestures based on EMG and IMU data"><meta itemprop="datePublished" content="2023-05-08T17:00:00-05:00" />
 <meta itemprop="dateModified" content="2023-05-08T17:00:00-05:00" />
-<meta itemprop="wordCount" content="517"><meta itemprop="image" content="https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/images/thumbnail.png">
+<meta itemprop="wordCount" content="531"><meta itemprop="image" content="https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/images/thumbnail.png">
 <meta itemprop="keywords" content="" />
 </head>
 <body>
@@ -47,7 +47,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile About Me" class="rounded-logo">
+        <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile Home" class="rounded-logo">
       </a>
     </div>
     <h2>Hi, I'm Aharon</h2>
@@ -133,7 +133,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile About Me" class="rounded-logo">
+          <img src='https://sebtona.github.io/images/aharon-sebton.jpg' alt="Profile Home" class="rounded-logo">
         </a>
       </div>
       <h2>Hi, I'm Aharon</h2>
@@ -328,7 +328,7 @@
 
 <img title="Gesture Controlled Drone Simulation" alt="Gesture Controlled Drone Simulation" src="/portfolio/gesture-controlled-drone-simulation/images/thumbnail.png" />
 
-<p>I worked in a team with two of my fellow students on a final project for our Biorobotics/Cybernetics class. The goals of the project were to create a machine learning model capable of accurately classifying a predetermined set of hand and arm gestures based on a user&rsquo;s biosignals, and to use said model to control a quadcopter drone&rsquo;s trajectory in a simulation environment.</p>
+<p>I worked in a team with two of my fellow students on a final project for our Biorobotics/Cybernetics class. The goals of the project were to create a machine learning model capable of accurately classifying a predetermined set of hand and arm gestures based on a user&rsquo;s biosignals, and to use said model to control a quadcopter drone&rsquo;s trajectory in a real time simulation environment.</p>
 <p>We began this project by agreeing on a set of fifteen hand/arm gestures that map to commands for the drone to move and rotate along all axes in 3D space. Electromyography (EMG) and accelerometer/gyroscope (IMU) signals were collected using a <a href="https://youtu.be/jOEcsNmTk7g" target="_blank">Myo Armband</a> while each of us peformed these gestures; a total of 300 samples were collected.
 <figure><img src="/portfolio/gesture-controlled-drone-simulation/images/myo_gesture.png"
          alt="Myo Gesture"/><figcaption>
@@ -336,7 +336,7 @@
         </figcaption>
 </figure>
 </p>
-<p>Preprocessing of the collected EMG data was necessary since these biosignals are extremely small in voltage and susceptible to noise. Band pass and notch filters were applied to the EMG signals, as well as rectification. The raw IMU data was not preprocessed.</p>
+<p>Preprocessing of the collected data was necessary since these biosignals are extremely small in voltage and susceptible to noise. Band pass and notch filters were applied to the EMG signals, as well as rectification and a zero mean operation. A rolling average was applied to the IMU signals as a smoothing technique.</p>
 <figure><img src="/portfolio/gesture-controlled-drone-simulation/images/preprocessing.png"
          alt="Preprocessing"/><figcaption>
             <p>Preprocessing</p>
@@ -344,6 +344,12 @@
 </figure>
 
 <p>After conducting a literature survey, our team agreed upon a set of straightforward metrics used to characterize each hand/arm gesture, such as mean absolute value, variance and max power. These features were calculated for each channel of each sample before feeding them into machine learning methods of our choice.</p>
+<figure><img src="/portfolio/gesture-controlled-drone-simulation/images/feats_code.png"
+         alt="Feature Extraction"/><figcaption>
+            <p>Feature Extraction</p>
+        </figcaption>
+</figure>
+
 <p>Team research concluded that neural networks (NN), support vector machines (SVM), and long short-term memory (LSTM) networks have shown promising results when used to classify EMG data. Each of us trained one of these machine learning methods on our collected EMG data, and my neural network showed the highest accuracy when classifying unobserved samples (about 90% accuracy). A visual of the original NN&rsquo;s structure and resulting confusion matrix are shown below.</p>
 <figure><img src="/portfolio/gesture-controlled-drone-simulation/images/emg_nn.png"
          alt="EMG Neural Network"/><figcaption>
