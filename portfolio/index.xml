@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2023</copyright>
-    <lastBuildDate>Mon, 08 May 2023 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jul 2023 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bin Packing Robotic System</title>
+      <link>https://sebtona.github.io/portfolio/bin-packing-robotic-system/</link>
+      <pubDate>Wed, 05 Jul 2023 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/portfolio/bin-packing-robotic-system/</guid>
+      <description>My graduate research aims at creating an accessible robotic system that can be used to test various 3D bin packing algorithms. An arm robot was integrated with a depth sensing camera so that given a random set of objects, each object can be grasped, 3D scanned, and packed into a container in a pose based on chosen criteria.
+A neural network (GR-ConvNet) created by RIT alumn and fellow roboticist Sulabh Kumra was repurposed to allow the Sawyer arm robot to grasp random objects that are in the robot&amp;rsquo;s workspace and in the field of view of an overhead Intel RealSense Depth Camera D435.</description>
+    </item>
+    
     <item>
       <title>Gesture Controlled Drone Simulation</title>
       <link>https://sebtona.github.io/portfolio/gesture-controlled-drone-simulation/</link>

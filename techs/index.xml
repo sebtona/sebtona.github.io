@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Aharon Sebton 2023</copyright>
-    <lastBuildDate>Mon, 08 May 2023 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jul 2023 17:00:00 -0500</lastBuildDate><atom:link href="https://sebtona.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://sebtona.github.io/techs/python/</link>
+      <pubDate>Wed, 05 Jul 2023 17:00:00 -0500</pubDate>
+      
+      <guid>https://sebtona.github.io/techs/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>https://sebtona.github.io/techs/c&#43;&#43;/</link>
       <pubDate>Mon, 08 May 2023 17:00:00 -0500</pubDate>
       
       <guid>https://sebtona.github.io/techs/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://sebtona.github.io/techs/python/</link>
-      <pubDate>Mon, 08 May 2023 17:00:00 -0500</pubDate>
-      
-      <guid>https://sebtona.github.io/techs/python/</guid>
       <description></description>
     </item>
     
